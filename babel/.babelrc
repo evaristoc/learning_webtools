@@ -1,0 +1,13 @@
+/*not a js object but json file*/
+{
+    "presets":[
+        ["@babel/preset-env",
+            {
+                "targets":{
+                    },
+                "corejs": "2.6.11",
+                 "useBuiltIns":"usage"
+            }
+        ]
+    ]
+}
